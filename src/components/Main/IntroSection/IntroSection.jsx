@@ -25,10 +25,10 @@ const IntroSection = () => {
   }, []);
 
   return (
-    <section id="s1" className="sec1">
+    <section id="s1" className="sec1 min-h-screen">
       <div className="section intro__section">
         <div className="p-6">
-          <h2 className="hero-h2 flex flex-col justify-center items-end">
+          <h2 className="hero-h2 flex flex-col justify-center items-end mb-6">
             <div className="">Hi, I&apos;m Subhajit</div>
             <div
               className="disable imgShow z-20"
@@ -38,7 +38,8 @@ const IntroSection = () => {
               A CS Undergraduate @BESU
             </div>
           </h2>
-          <div className="intro__content">
+
+          <div className="intro__content md:font-[content] uppercase max-w-[100ch] pl-10">
             <p className="hero-p introduction">
               Made it to my Fifth Semester at{" "}
               <a

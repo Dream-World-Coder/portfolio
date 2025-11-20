@@ -38,14 +38,14 @@ const ProjectsSection = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex justify-center items-center gap-1
-                                opacity-100 md:opacity-0 group-hover:opacity-100
-                                transition-all duration-500 transform
-                                flexed f-gap-1 rounded-full
-                                box-content px-3 py-1
-                                border border-black/80 bg-black/80 text-sky-100"
+                    className="flex justify-center items-center gap-0
+                      opacity-100 md:opacity-0 group-hover:opacity-100
+                      transition-all duration-500 transform
+                      flexed f-gap-1 rounded-full
+                      box-content px-3 py-1
+                      border border-black/80 bg-black/80 text-sky-100"
                   >
-                    visit ➚
+                    visit <ChevronRight size={16} />
                   </a>
                 </div>
 

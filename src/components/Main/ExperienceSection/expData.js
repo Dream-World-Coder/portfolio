@@ -1,7 +1,19 @@
 export const experienceData = [
   {
-    date: "October 2024 - Present",
-    title: "Google Developer Group IIEST Shibpur, Development Core Team Member",
+    date: "October 2025 - Present",
+    title: "Web dev lead at CODEIIEST",
+    organization: "CODEIIEST",
+    description: `
+    Currently volunteering as the web dev lead in CODEIIEST, the official coding club of IIEST Shibpur.
+    Taking sessions, guiding juniors and keeping the interest growing as the main moto of this club.
+    visit: <a href="https://www.codeiiest.in" target="_blank"><u>codeiiest</u></a>
+    `,
+    logo: "https://www.codeiiest.in/assets/logo/codeiiest-logo.png",
+    badges: [],
+  },
+  {
+    date: "October 2024 - October 2025",
+    title: "Google Developer Group IIESTS, Web Dev Core Member",
     organization: "GDG IIEST",
     description: `
     Active member of GDG on campus IIEST, participated in building multiple official and unofficial websites.
@@ -24,9 +36,10 @@ export const experienceData = [
 
   {
     date: "December 2024",
-    title: "SWOC(Social Winter Of Code) Contributor, OpenSource",
+    title: "SWOC(Social Winter Of Code) Contributor",
     organization: "SWOC",
-    description: "Participated in Social Winter Of Code organised by DevFolio",
+    description:
+      "Participated in Social Winter Of Code OpenSource event organised by DevFolio",
     logo: "https://www.socialwinterofcode.com/SWOC_W_Black.png",
     badges: [
       {
@@ -40,10 +53,10 @@ export const experienceData = [
 
   {
     date: "October 2024",
-    title: "Completed HactoberFest'24 OpenSource Contribution Event",
+    title: "Completed HactoberFest'24",
     organization: "HactoberFest'24",
     description:
-      "Participated in Hactoberfest 2024 and completed the event with 5 successful PR merges.",
+      "Participated in Hactoberfest 2024, an OpenSource Contribution Event, and completed the event with 5 successful PR merges.",
     badges: [
       {
         type: "plain",
@@ -54,22 +67,3 @@ export const experienceData = [
     ],
   },
 ];
-
-/*
-export const experienceData = [
-  {
-    date: "October 2024 - Present",
-    title: "Aventus 3.0 Hackathon - Triage Flow",
-    organization: "Aventus",
-    status: "Offline",
-    description:
-      "Developed Triage Flow, an AI-powered medical triage system. The project utilized multimodal input (text and images), ResNet18 for image classification, RAG with FAISS, and a dual Gemini ADK agent pipeline. Achieved Finalist position (Top 12 out of 600+ registrations).",
-    logo: null,
-    badges: [
-      { type: "github", text: "GitHub", icon: "" },
-      { type: "demo", text: "Demo", icon: "" },
-      { type: "achievement", text: "Top 12/600+", icon: "" },
-    ],
-  }
-];
-*/

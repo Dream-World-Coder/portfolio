@@ -51,12 +51,6 @@
   }
 }
 
-.institute__data strong {
-  font-weight: 800;
-}
-.inst {
-  text-decoration: none;
-}
 .acad__institutions {
   border-left: 1px solid #000;
   height: 145px;
@@ -67,11 +61,6 @@
 .year,
 .grade {
   display: inline;
-}
-
-.inst {
-  font-size: larger;
-  font-weight: 700;
 }
 
 .institute__data {

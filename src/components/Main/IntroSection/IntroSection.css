@@ -148,8 +148,8 @@ html {
 }
 
 h2.hero-h2 {
-  font-size: 12.4vw;
-  line-height: 12vw;
+  font-size: 11vw;
+  line-height: 10.8vw;
   text-align: right;
   white-space: nowrap;
   font-family: Dahlia, title, serif;
@@ -157,7 +157,7 @@ h2.hero-h2 {
 
   @media screen and (min-width: 1540px) {
     & {
-      font-size: 12rem;
+      font-size: 11rem;
       line-height: 1;
     }
   }
@@ -176,23 +176,26 @@ h2.hero-h2 div.disable {
 }
 
 p.hero-p {
-  font-size: 60px;
-  font-family: title;
+  font-size: 24px;
 
   @media (max-width: 1540px) {
     & {
-      font-size: 40px;
+      font-size: 20px;
     }
   }
 
   @media (max-width: 1140px) {
     & {
-      font-size: 32px;
+      font-size: 18px;
     }
   }
   @media (max-width: 768px) {
     & {
-      font-size: 22px;
+      /*font-size: 16px;*/
+      font:
+        14px/1.3 Content,
+        sans-serif;
+      text-transform: uppercase;
     }
   }
 }

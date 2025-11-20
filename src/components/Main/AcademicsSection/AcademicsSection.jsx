@@ -56,35 +56,33 @@ const AcademicsSection = () => {
                 >
                   <span className="s2 relative">
                     <span className="s3 relative">
-                      <strong
-                        className="inst font-[title]"
+                      <span
+                        className="inst font-[content] uppercase text-xl"
                         itemProp="educationalLevel"
                       >
                         {academic.level}
-                      </strong>
+                      </span>
                     </span>
                   </span>
                   <br />
                   <span className="s2 relative">
                     <span className="s3 relative">
-                      <em>Institution:</em>
+                      <em className="font-[content] uppercase text-base">
+                        Institution:{" "}
+                      </em>
                       <span itemProp="name">{academic.institution}</span>
                     </span>
                   </span>
                   <br />
                   <span className="s2 relative">
                     <span className="s3 relative">
-                      <em className="year">Year:</em>
+                      <em className="year font-[content] uppercase text-base">
+                        Year:{" "}
+                      </em>
                       {academic.year}
                     </span>
                   </span>
                   <br />
-                  {/* <span className="s2 relative">
-                      <span className="s3 relative">
-                          <em className="grade">Grade:</em>
-                          {academic.grade}
-                      </span>
-                  </span> */}
                 </div>
                 <div
                   className="ball-pointer"

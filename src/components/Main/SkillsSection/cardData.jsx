@@ -1,7 +1,7 @@
 const cardElements = [
   {
     title: "Web Development",
-    value: "70%",
+    value: "90%",
     content: (
       <>
         <em>
@@ -15,18 +15,23 @@ const cardElements = [
           <u>Backend:</u>
         </em>
         <br />
-        Flask, SQL, Express, MongoDB, Node, Dexie.js, Next.js
+        Next.js, Flask, SQL, Express, MongoDB, Node, Dexie.js
         <br />
         <br />
+        <em>
+          <u>DevOps:</u>
+        </em>
+        <br />
+        CI/CD Pipelines, AWS (EC2, S3, Lambda)
       </>
     ),
   },
   {
     title: "Python",
-    value: "85%",
+    value: "90%",
     content: (
       <>
-        Skilled in python (primary programming language)
+        Skilled in python
         <br />
         <br />
         besides python I use: C, C++, JavaScript
@@ -37,14 +42,16 @@ const cardElements = [
   },
   {
     title: "Core Subjects",
-    value: "85%",
+    value: "90%",
     content: (
       <>
         <ul className="list-disc ml-6">
-          <li>Data Structures and Algorithms</li>
+          <li>Data Structures</li>
+          <li>Algorithms</li>
           <li>Relational Database Management Systems</li>
-          <li>Digital Logic, Computer Organisation &amp; Architecture</li>
+          <li>Operating Systems</li>
           <li>Object Oriented System Design</li>
+          <li>Digital Logic, Computer Organisation &amp; Architecture</li>
         </ul>
         <br />
         <br />
@@ -53,9 +60,11 @@ const cardElements = [
   },
   {
     title: "Web Scraping",
-    value: "60%",
+    value: "75%",
     content: (
       <>
+        Skilled in automated web scraping, and desiging agentic workflows.
+        <br />
         <em>
           <u>Libraries:</u>
         </em>
@@ -68,16 +77,16 @@ const cardElements = [
   },
   {
     title: "Collaboration",
-    value: "70%",
+    value: "85%",
     content: (
       <>
-        Can easily collaborate with team members using GitHub
+        Can easily collaborate with team members using Git &amp; GitHub
         <br /> <br />
         <em>
           <u>Experience:</u>
         </em>
         <br />
-        GDSC Development Team, Hactoberfest&apos;24
+        GDG CODEIIEST, Hactoberfest&apos;24
         <br />
         <br />
       </>

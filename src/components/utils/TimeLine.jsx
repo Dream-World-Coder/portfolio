@@ -60,7 +60,7 @@ const ExperienceTimeline = ({ data: experiences = [] }) => {
             </div>
 
             {/* Title */}
-            <h3 className="text-3xl text-neutral-950 mb-1 font-[title] italic">
+            <h3 className="text-xl text-neutral-950 mb-1 font-[content] uppercase max-w-[65ch]">
               {experience.title}
             </h3>
 
@@ -73,7 +73,7 @@ const ExperienceTimeline = ({ data: experiences = [] }) => {
 
             {/* Description */}
             <p
-              className="text-neutral-600 text-xl leading-relaxed mb-4 font-[poppins]"
+              className="text-neutral-600 text-base leading-relaxed mb-4 font-[poppins] max-w-[65ch]"
               dangerouslySetInnerHTML={{ __html: experience.description }}
             />
 
